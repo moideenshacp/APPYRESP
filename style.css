@@ -1,0 +1,150 @@
+body{
+    margin: 0;
+}
+
+.head{
+    background:#0a0b27;
+     z-index: 2;
+}
+.but{
+    color:#fff; 
+    font-size:25px;
+    border: none;
+}
+.img-fluid{
+    width:100%;
+    margin-top: 60px;
+    position:relative;
+    
+}
+.nav-link{
+  color:white;
+  margin-left:-36px;
+  
+  
+  margin-right:28px;
+  
+}
+.nav-link:hover{
+  color: red;
+
+}
+  .column {
+    float: left;
+    width: 50%;
+    padding: 20px;
+    height: 500px;
+    
+    
+    
+     
+  }
+  #new{
+    height: 310px;
+    width: 90px;
+    margin-left: 40%;
+    margin-top: 15%;
+    position: relative;
+   
+  }
+  .Appy{
+    
+    margin-top: -30%;
+    font-family:EksellDisplayWeb-Small;
+    font-size: 50px;
+    color:aliceblue;
+    text-align: center;
+    font-weight: 800;
+    letter-spacing: 3px;
+    z-index: 1;
+    position: relative;
+  }
+  .para{
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight:400;
+  }
+  .column1{
+    float: left;
+    width: 33.33%;
+    padding: 20px;
+    height: 300px;
+  }
+  .mails{
+    text-decoration: none;
+    color: black;
+  }
+  .media{
+    text-decoration: none;
+    color:white;
+    padding: 10px;
+    background:black;
+    border-radius:50%;
+  }
+  .mails:hover{
+    color: red;
+  }
+  .media:hover{
+    background-color:red;
+  }
+  .para{
+    font-family: sans-serif;
+    font-weight: 500;
+  }
+  
+  @media screen and (max-width:667px) {
+    .column {
+      width: 100%;
+    }
+    .Appy{
+      font-size: 35px;
+      position: relative;
+      margin-left:10%;
+      margin-top:-50%;
+    }
+    .column1{
+      width: 100%;
+
+    }
+    .nav-link{
+      color:white;
+      
+      
+    } 
+  }
+  @media screen and (max-width:1024px) {
+    .Appy{
+      font-size: 35px;
+      position: relative;
+      margin-left:10%;
+      margin-top:-48%;
+    }
+    
+    
+}
+@media screen and (max-width:320px) {
+  .Appy{
+    font-size: 35px;
+    position: relative;
+    margin-left:12%;
+    margin-top:-68%;
+  }
+  #new{
+    height: 250px;
+    
+  }
+  
+ 
+}
+@media screen and(max-width:320px) {
+  .nav-link{
+    margin-left:-30px;
+    font-size: xx-small;
+  }
+  
+}
+@media screen and(max-width:1439px){
+  .nav-link{
+    margin-left:-20px;
+  }
+}
